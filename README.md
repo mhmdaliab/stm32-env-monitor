@@ -125,7 +125,7 @@ The PCB is designed as a solution integrating:
 
 ---
 
-## ⚙️ Setup & Usage
+## Setup & Usage
 
 ### 1. Clone the repository
 
