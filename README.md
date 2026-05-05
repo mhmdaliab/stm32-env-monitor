@@ -18,7 +18,7 @@ A simple embedded system project that reads temperature and pressure data from a
 
 - STM32F030 microcontroller
 - BMP280 Temperature & Pressure Sensor
-- TFT LCD Display (ILI9341)
+- TFT LCD Display (SSD1306)
 - Breadboard
 - Connecting wires
 
