@@ -10,16 +10,16 @@ A simple embedded system project that reads temperature and pressure data from a
 - Pressure sensing via BMP280
 - TFT LCD display output
 - Lightweight embedded implementation
-- Bare-metal / HAL-based (edit accordingly)
+- HAL-based
 
 ---
 
 ## 🧰 Hardware Components
 
-- STM32F0 microcontroller (e.g. STM32F030 / STM32F072)
+- STM32F030 microcontroller
 - BMP280 Temperature & Pressure Sensor
-- TFT LCD Display (mention model, e.g. ILI9341)
-- Breadboard / PCB
+- TFT LCD Display (ILI9341)
+- Breadboard
 - Connecting wires
 
 ---
@@ -27,11 +27,10 @@ A simple embedded system project that reads temperature and pressure data from a
 ## 🧑‍💻 Software Stack
 
 - C (Embedded C)
-- STM32 HAL / LL drivers (specify which one)
-- STM32CubeIDE / Keil / PlatformIO (specify your IDE)
+- STM32 HAL 
+- Keil
 - Communication Protocols:
-  - I2C (for BMP280)
-  - SPI / Parallel (for TFT)
+  - I2C (for BMP280 and TFT)
 
 ---
 ## 🧩 Hardware Design
@@ -39,27 +38,21 @@ A simple embedded system project that reads temperature and pressure data from a
 ### 📐 Schematic
 
 The schematic includes:
-- STM32F0 microcontroller
+- STM32F030 Bluepill board
 - BMP280 sensor (I2C)
-- TFT LCD interface (SPI)
-- Power regulation and decoupling
+- TFT LCD interface (I2C)
 
 ![Schematic](docs/Thermometer-SchDoc.PNG)
 
 ### 🪛 PCB Layout
 
-The PCB is designed as a compact single-board solution integrating:
-- MCU + sensor + display connectors
-- Proper grounding and decoupling
-- Signal routing for SPI and I2C
+The PCB is designed as a solution integrating:
+- Bluepull + sensor + display connectors
+- Signal routing for I2C
 
 ### 🖼️ PCB Preview
 
 ![PCB](docs/Thermometer-PcbDoc.PNG)
-
----
-
-## 🔌 System Architecture
 
 ---
 
