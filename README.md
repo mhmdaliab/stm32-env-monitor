@@ -103,7 +103,7 @@ Some directions I’d like to explore next:
 The schematic includes:
 - STM32F030 Bluepill board
 - BMP280 sensor (I2C)
-- OLED LCD interface (I2C)
+- OLED interface (I2C)
 
 ![Schematic](docs/Thermometer-SchDoc.PNG)
 
