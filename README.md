@@ -130,7 +130,7 @@ The PCB is designed as a solution integrating:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/mhmdaliab/stm32-thermometer.git
+git clone https://github.com/mhmdaliab/stm32-env-monitor.git
 ```
 
 ---
